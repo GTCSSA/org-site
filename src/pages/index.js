@@ -48,7 +48,7 @@ export default function Index() {
       </div>
       <div className="landing-page-container">
       <div style={{ height: "50px", marginTop: "-50px", visibility: "hidden" }} id="about"></div>
-        <div className="about-pennapps"> d
+        <div className="about-pennapps"> 
           <h3>关于我们 About Us</h3>
           <div>
             Founded in the 1990s and well before the internet came to relevance, GT Chinese Students and Scholars Association, previously the GT Chinese Friends Association (GTCFA), is the premier and official home of Chinese students and scholars alike at the Georgia
