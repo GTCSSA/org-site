@@ -55,7 +55,7 @@ export default function Index() {
             Institute of Technology. We service Chinese students and scholars on campus as well as the Chinese community in the metro-Atlanta area and plan events & activities in order to enrich our members' lives outside of their busy academic commitments.
             <br></br>
             <br></br>
-            GTCSSA 拥有近三十年的历史，是佐治亚理工学院最大的华人学生学者团体，同时也是唯一获得中华人民共和国驻美大使馆官方认可并直接支持的学生会性质团体。我们和大家一样，都是纯粹的学生，独立的个体。 我们相信公平，公正，公开；我们有着自由的灵魂，开拓的精神，与进取的信念。多年以来，我们不断努力，目标只有一个：让本校乃至本地区的中国学生成为一个更优秀的群体。
+             佐治亚理工学院中国学生学者联合会拥有近三十年的历史，是本校最大的华人学生学者团体，同时也是本校唯一获得中华人民共和国驻美大使馆官方认可并直接支持的学生会性质团体。我们和大家一样，都是纯粹的学生，独立的个体。 我们相信公平，公正，公开；我们有着自由的灵魂，开拓的精神，与进取的信念。多年以来，我们不断努力，目标只有一个：让本校乃至本地区的中国学生成为一个更优秀的群体。
             <br></br>
             <br></br>
                                                                                                                                              —— 2010年春季学生会章程

@@ -62,7 +62,7 @@ function DrawerAppBar({ currPage }) {
               ml: '11px',
             }}
           >
-            GTCSSA     佐治亚理工学院中国学生学者联合会
+            GTCSSA     
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map(item => (
