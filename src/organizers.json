@@ -1,62 +1,54 @@
 [
   {
-    "name": "Anuj Kothari",
+    "name": "Tingyue He 何亭玥",
+    "title": "Executive Director",
+    "image": "tingyue"
+  },
+  {
+    "name": "Grace Lu 陆雪菲",
     "title": "Co-Director",
-    "image": "anuj"
+    "image": "grace"
   },
   {
-    "name": "Qijia (Joy) Liu",
-    "title": "Co-Director",
-    "image": "joy"
+    "name": "Wendy Pan 潘影彤",
+    "title": "Careers",
+    "image": "wendy"
   },
   {
-    "name": "Minnie Kim",
-    "title": "Creative",
-    "image": "minnie"
-  },
-  {
-    "name": "Jackie Li",
-    "title": "Creative",
-    "image": "jackie"
-  },
-  {
-    "name": "Sahishnu Hanumolu",
+    "name": "Meiwen Bi 毕美雯",
     "title": "Outreach",
-    "image": "sahishnu"
+    "image": "meiwen"
   },
   {
-    "name": "Melody Cheng",
-    "title": "Outreach",
-    "image": "melody"
+    "name": "Emma Hu 胡月",
+    "title": "Internal",
+    "image": "temp"
   },
   {
-    "name": "Yuying Fan",
-    "title": "Dev",
-    "image": "yuying"
+    "name": "Helen Liu 刘子钰",
+    "title": "Events",
+    "image": "helen"
   },
   {
-    "name": "Vincent Cai",
-    "title": "Dev",
-    "image": "vincent"
+    "name": "Jingyue Li 李京玥",
+    "title": "Finance",
+    "image": "temp"
   },
   {
-    "name": "Lina Chihoub",
-    "title": "Sponsorship",
-    "image": "lina"
+    "name": "Zixiao Yang 杨子霄",
+    "title": "Marketing",
+    "image": "zixiao"
+  },
+
+  {
+    "name": "Patrick Song 宋博润",
+    "title": "Events",
+    "image": "temp"
   },
   {
-    "name": "Lyndsey Barrett",
-    "title": "Sponsorship",
-    "image": "lyndsey"
-  },
-  {
-    "name": "Helena Zhang",
-    "title": "Logistics",
-    "image": "helena"
-  },
-  {
-    "name": "Ishaan Lal",
-    "title": "Logistics",
-    "image": "ishaan"
+    "name": "Jeffrey Deng 邓策中",
+    "title": "Tech",
+    "image": "jeffrey"
   }
+
 ]

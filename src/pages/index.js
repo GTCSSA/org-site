@@ -14,7 +14,7 @@ import organizers from '../organizers.json'
 export function Head() {
   return (
     <>
-      <title>PennApps - The world's first college hackathon</title>
+      <title>Tech CSSA - Georgia Tech's Official Chinese Student Association</title>
       <link rel="stylesheet" href="https://use.typekit.net/tri7gwo.css" />
     </>
   )
@@ -41,52 +41,31 @@ export default function Index() {
   )
 
   return (
-    <div className="landing">
+    <div className="landing" id="home">
       <Navbar />
-      {/* <div className="landing-info">
-        <div className="landing-info-text">Applications for PennAppsXXIV are open!</div>
-        <div className="landing-info-btn-container">
-          <a href="http://2023f.pennapps.com/">
-            <button className="landing-info-btn" type="button">GO TO SITE</button>
-          </a>
-        </div>
-      </div> */}
       <div className="landing">
         <img className="landing-img" src={landingImage} alt="Landing Header" />
       </div>
       <div className="landing-page-container">
-        <div className="about-pennapps">
-          <h3>About PennApps</h3>
+      <div style={{ height: "50px", marginTop: "-50px", visibility: "hidden" }} id="about"></div>
+        <div className="about-pennapps"> d
+          <h3>关于我们 About Us</h3>
           <div>
-            Founded in the fall of 2009, PennApps was the nation’s first student-run college
-            hackathon. Since then, it has spurred a revolution in the way engineering students
-            develop and showcase their skills, spawning an entire “league” of hackathons across the
-            nation. In past years, over a thousand students from the U.S. and other countries like
-            Switzerland, Canada, England, and Singapore have converged in Philadelphia for the
-            spring and fall editions of the event for a weekend of creation and discovery. Both
-            beginners and experts alike will work together, learn and compete to become better
-            engineers and work on awesome projects.
+            Founded in the 1990s and well before the internet came to relevance, GT Chinese Students and Scholars Association, previously the GT Chinese Friends Association (GTCFA), is the premier and official home of Chinese students and scholars alike at the Georgia
+            Institute of Technology. We service Chinese students and scholars on campus as well as the Chinese community in the metro-Atlanta area and plan events & activities in order to enrich our members' lives outside of their busy academic commitments.
+            <br></br>
+            <br></br>
+            GTCSSA 拥有近三十年的历史，是佐治亚理工学院最大的华人学生学者团体，同时也是唯一获得中华人民共和国驻美大使馆官方认可并直接支持的学生会性质团体。我们和大家一样，都是纯粹的学生，独立的个体。 我们相信公平，公正，公开；我们有着自由的灵魂，开拓的精神，与进取的信念。多年以来，我们不断努力，目标只有一个：让本校乃至本地区的中国学生成为一个更优秀的群体。
+            <br></br>
+            <br></br>
+                                                                                                                                             —— 2010年春季学生会章程
+
           </div>
         </div>
-        <div className="timeline">
-          <h3>Event Timeline</h3>
-          <div className="timeline-img-wrapper">
-            <picture>
-              <source
-                media="(min-width: 680px)"
-                srcSet={timelineImage}
-              />
-              <img
-                src={mobileTimelineImage}
-                alt="Timeline Image"
-                className="timeline-img"
-              />
-            </picture>
-          </div>
-          <p>Reach out to contact@pennapps.com if you have any questions!</p>
-        </div>
+
+<div style={{ height: "50px", marginTop: "-50px", visibility: "hidden" }} id="board"></div>
         <div className="organizers">
-          <h3>Organizers</h3>
+          <h3>圆桌成员 Board of Directors</h3>
           <div className="organizers-grid">
             {organizers.map(organizer => (
               <OrganizerCard

@@ -14,7 +14,8 @@ import Button from '@mui/material/Button'
 import { Link } from 'gatsby'
 
 const drawerWidth = 240
-const navItems = ['HACKERS', 'ORGANIZERS', 'AMBASSADORS', 'DIVERSITY FELLOWS']
+const navItems = ["Home", "About", "Board"];
+
 
 function DrawerAppBar({ currPage }) {
   const [mobileOpen, setMobileOpen] = React.useState(false)
@@ -27,20 +28,15 @@ function DrawerAppBar({ currPage }) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', bgcolor: '#F0F7FF' }}>
       <List>
         <ListItem key="HOME" disablePadding>
-          <ListItemButton component={Link} to="/" sx={{ textAlign: 'left' }}>
+          <ListItemButton component={Link}  to="/home"  sx={{ textAlign: 'left' }}>
             <ListItemText primary="HOME" />
-          </ListItemButton>
-        </ListItem>
-        <ListItem key="PENNAPPS XXIV" disablePadding>
-          <ListItemButton href="https://2023f.pennapps.com/" sx={{ textAlign: 'left' }}>
-            <ListItemText primary="PENNAPPS XXIV" />
           </ListItemButton>
         </ListItem>
         {navItems.map(item => (
           <ListItem key={item} disablePadding>
-            <ListItemButton component={Link} to={`/${item}`.toLowerCase()} sx={{ textAlign: 'left' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
+            <ListItemButton component={Link} to={`/#${item.replace(' ', '-').toLowerCase()}`} sx={{ textAlign: 'left' }}>
+    <ListItemText primary={item} />
+</ListItemButton>
           </ListItem>
         ))}
       </List>
@@ -66,20 +62,14 @@ function DrawerAppBar({ currPage }) {
               ml: '11px',
             }}
           >
-            PENNAPPS
+            GTCSSA     佐治亚理工学院中国学生学者联合会
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            <Button
-              href="https://2023f.pennapps.com/"
-              key="PENNAPPS XXIV"
-              sx={{ color: '#0F2944', fontFamily: 'proxima-nova', mr: '13px' }}
-            >
-              PENNAPPS XXIV
-            </Button>
             {navItems.map(item => (
               <Button
                 component={Link}
-                to={`/${item.replace(' ', '-')}`.toLowerCase()}
+
+    to={`/#${item.replace(' ', '-').toLowerCase()}`}
                 key={item}
                 sx={{
                   bgcolor: item === currPage ? 'rgba(25, 118, 210, 0.1)' : '', color: '#0F2944', fontFamily: 'proxima-nova', mr: '13px',

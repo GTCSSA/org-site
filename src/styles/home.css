@@ -7,20 +7,29 @@ body {
   padding: 0px;
   overflow-x: hidden;
   justify-items: center;
+
+  scroll-behavior: smooth;
 }
 
 body {
   color: #0F2944;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .landing {
-  max-width: 100vw;
+  display: grid;
+  place-items: center; /* shorthand to center both horizontally and vertically */
+  height: 100vh;  /* sets the height to the full viewport height, adjust as needed */
 }
 
 .landing-img {
-  max-width: 100vw;
-  height: auto;
+  max-width: 80%;  /* ensures the image does not exceed the div width */
+  max-height: 80%; /* ensures the image does not exceed the div height */
 }
+
 
 .landing-info {
   position: relative;

@@ -1,14 +1,25 @@
 .footer {
+  padding: 20px 0;
   text-align: center;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: flex;
-  vertical-align: middle;
-  flex-direction: row;
+  align-items: center; /* vertically align items in the center */
+  flex-direction: column; /* stack children vertically */
   justify-content: center;
   padding-bottom: 30px !important;
   color: #0F2944;
   background-color: inherit;
   margin-top: 60px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* provides spacing between the icons */
+}
+
+.email-container {
+  margin-top: 10px; /* Adds a bit of space above the email text */
 }
 
 .icon {
@@ -26,6 +37,10 @@
   outline: none;
   text-decoration: none;
   margin-right: 7px;
+  display: block; /* Ensures the text takes up the full width and starts on a new line */
+    margin-top: 10px; /* Adds a bit of space above the text */
+    color: #000; /* Example color, adjust as needed */
+    font-size: 16px; /* Example size, adjust as needed */
 }
 
 .email:hover {
